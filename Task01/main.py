@@ -17,7 +17,7 @@ c3.decrement()
 
 c1.count = 10
 n = c1.count
-del c1.count
+# del c1.count
 
 print(c1.count)
 print(c2.count)
