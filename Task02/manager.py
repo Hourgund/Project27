@@ -3,6 +3,7 @@ import math
 
 
 class Manager:
+    @staticmethod
     def calculate_distance(self, point1, point2):
         if isinstance(point1, Point2D) and isinstance(point2, Point2D):
             distance = 0
@@ -12,3 +13,13 @@ class Manager:
             return distance
 
         return -1
+
+
+class A:
+    def __init__(self):
+        self.field = 0
+
+    @staticmethod
+    def sum(a, b):
+        return a + b
+
